@@ -1,0 +1,24 @@
+body{
+    height: 5000px;
+}
+
+.carousel-indicators {
+    left: unset;
+    width: 100%;
+    margin-left: auto;
+    top: 580px;
+}
+
+.carousel-indicators li, .carousel-indicators .active{
+    width: 150px;
+    border: unset;
+}
+
+.carousel-indicators li{
+    opacity: 0.6;
+    display: inline-grid;
+}
+
+.carousel-indicators li.active{
+    opacity: 1;
+}

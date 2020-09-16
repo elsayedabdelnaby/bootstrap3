@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap3.4</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Elaraby <span>Inc.</span></a>
+      </div>
+  
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Company</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Programming</a></li>
+              <li><a href="#">Web Desgin</a></li>
+              <li><a href="#">Web Hosting</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">One more separated link</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Map</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+<!-- End Navbar -->
+<!-- Carousel -->
+  <div id="myslide" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators hidden-xs">
+      <li data-target="#myslide" data-slide-to="0" class="active"></li>
+      <li data-target="#myslide" data-slide-to="1"></li>
+      <li data-target="#myslide" data-slide-to="2"></li>
+      <li data-target="#myslide" data-slide-to="3"></li>
+    </ol>
+  
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="images/1.jpg" alt="Slide One">
+        <div class="carousel-caption hidden-xs">
+          <h1>Programming</h1>
+          <p class="lead">The carousel component is generally not compliant with accessibility standards. If you need to be compliant, please consider other options for presenting your content.</p>
+          <div class="btn btn-primary">Read More</div>
+          <div class="btn btn-danger">Buy It</div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="images/2.jpg" alt="Slide Two">
+        <div class="carousel-caption hidden-xs">
+          <h1>Web Desgin</h1>
+          <p class="lead">The carousel component is generally not compliant with accessibility standards. If you need to be compliant, please consider other options for presenting your content.</p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="images/3.jpg" alt="Slide Three">
+        <div class="carousel-caption hidden-xs">
+          <h1>Web Desgin</h1>
+          <p class="lead">The carousel component is generally not compliant with accessibility standards. If you need to be compliant, please consider other options for presenting your content.</p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="images/4.jpg" alt="Slide Four">
+        <div class="carousel-caption hidden-xs">
+          <h1>Web Desgin</h1>
+          <p class="lead">The carousel component is generally not compliant with accessibility standards. If you need to be compliant, please consider other options for presenting your content.</p>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Controls -->
+    <a class="left carousel-control" href="#myslide" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myslide" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <!-- End Carousel -->
+
+  <!-- Start About Section -->
+  <section class="about text-center">
+    <div class="container">
+      <h1 class="hidden-xs">Meet Our New Template <span>Elaraby Inc.</span></h1>
+      <h3 class="visible-xs-block">Meet Our New Template <span>Elaraby Inc.</span></h3>
+      <p class="lead">Hello, Let me Introduce Our Template Elaraby Inc.Created With All The Love With <strong>Bootstrap</strong> 3.2</p>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Start Feature Section -->
+  <section class="features text-center">
+    <div class="container">
+      <h1>Our Features</h1>
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <div class="feat">
+            <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+            <h4>100% Responsive</h4>
+            <p>Etiam nec ex malesuada, ullamcorper mauris pretium, aliquet est. Integer eu diam vehicula, lacinia velit sit amet, congue magna.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="feat">
+            <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+            <h4>Retaine Ready</h4>
+            <p>Etiam nec ex malesuada, ullamcorper mauris pretium, aliquet est. Integer eu diam vehicula, lacinia velit sit amet, congue magna.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="feat">
+            <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+            <h4>Awesome Display</h4>
+            <p>Etiam nec ex malesuada, ullamcorper mauris pretium, aliquet est. Integer eu diam vehicula, lacinia velit sit amet, congue magna.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="feat">
+            <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+            <h4>Well Document</h4>
+            <p>Etiam nec ex malesuada, ullamcorper mauris pretium, aliquet est. Integer eu diam vehicula, lacinia velit sit amet, congue magna.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Feature Section -->
+  
+  <!-- Start Testimonials Section -->
+  <div class="testimonials text-center">
+    <div class="container">
+      <h1>What our Clients Say</h1>
+      <div id="carousel-testimonials" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at tristique sapien. Sed feugiat venenatis lacus, ut hendrerit massa dapibus non. Proin pharetra diam turpis, eget eleifend magna luctus sed. Mauris vel lectus eu purus tempus efficitur. Aenean eget massa at ligula suscipit malesuada sit amet quis turpis. Vestibulum scelerisque sodales orci eget pharetra. Mauris sollicitudin, mi eget molestie efficitur, justo arcu mollis nulla, non suscipit magna dui at velit. Maecenas a sem nisi. Nulla nec feugiat orci. Fusce vitae accumsan justo. Donec viverra quis ante in pharetra.</p>
+              <span>Name of Person</span>
+          </div>
+          <div class="item">
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at tristique sapien. Sed feugiat venenatis lacus, ut hendrerit massa dapibus non. Proin pharetra diam turpis, eget eleifend magna luctus sed. Mauris vel lectus eu purus tempus efficitur. Aenean eget massa at ligula suscipit malesuada sit amet quis turpis. Vestibulum scelerisque sodales orci eget pharetra. Mauris sollicitudin, mi eget molestie efficitur, justo arcu mollis nulla, non suscipit magna dui at velit. Maecenas a sem nisi. Nulla nec feugiat orci. Fusce vitae accumsan justo. Donec viverra quis ante in pharetra.</p>
+            <span>Name of Person</span>
+          </div>
+          <div class="item">
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at tristique sapien. Sed feugiat venenatis lacus, ut hendrerit massa dapibus non. Proin pharetra diam turpis, eget eleifend magna luctus sed. Mauris vel lectus eu purus tempus efficitur. Aenean eget massa at ligula suscipit malesuada sit amet quis turpis. Vestibulum scelerisque sodales orci eget pharetra. Mauris sollicitudin, mi eget molestie efficitur, justo arcu mollis nulla, non suscipit magna dui at velit. Maecenas a sem nisi. Nulla nec feugiat orci. Fusce vitae accumsan justo. Donec viverra quis ante in pharetra.</p>
+            <span>Name of Person</span>
+          </div>
+          <div class="item">
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at tristique sapien. Sed feugiat venenatis lacus, ut hendrerit massa dapibus non. Proin pharetra diam turpis, eget eleifend magna luctus sed. Mauris vel lectus eu purus tempus efficitur. Aenean eget massa at ligula suscipit malesuada sit amet quis turpis. Vestibulum scelerisque sodales orci eget pharetra. Mauris sollicitudin, mi eget molestie efficitur, justo arcu mollis nulla, non suscipit magna dui at velit. Maecenas a sem nisi. Nulla nec feugiat orci. Fusce vitae accumsan justo. Donec viverra quis ante in pharetra.</p>
+            <span>Name of Person</span>
+          </div>
+        </div>
+
+        <ol class="carousel-indicators hidden-xs">
+          <li data-target="#carousel-testimonials" data-slide-to="0" class="active">
+            <img src="/images/download.jpeg?auto=compress&cs=tinysrgb">
+          </li>
+          <li data-target="#carousel-testimonials" data-slide-to="1">
+            <img src="/images/profile-pic-2.jpeg?auto=compress&cs=tinysrgb">
+          </li> 
+          <li data-target="#carousel-testimonials" data-slide-to="2">
+            <img src="/images/profile-pic-3.jpeg?auto=compress&cs=tinysrgb">
+          </li>
+          <li data-target="#carousel-testimonials" data-slide-to="3">
+            <img src="/images/profile-pic.jpg?auto=compress&cs=tinysrgb">
+          </li>
+        </ol>
+
+      </div>
+    </div>
+  </div>
+  <!-- End Testimonials Section -->
+  <!-- Carousel Price Table-->
+  <section class="price_table text-center">
+    <div class="container">
+      <h1>Our Amazing Prices</h1>
+      <div class="row">
+
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="price_box">
+            <h2 class="text-primary">Hosting</h2>
+            <p class="center-block">200$</p>
+            <ul class="list-unstyled">
+              <li>Space: 30GB</li>
+              <li>Emails: 300 Emails</li>
+              <li>IPs: 2</li>
+              <li>Database: Mysql</li>
+              <li>FTP Account: 5</li>
+            </ul>
+            <a href="#" class="btn btn-primary">Order Now</a>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="price_box">
+            <h2 class="text-success">VPS</h2>
+            <p class="center-block">200$</p>
+            <ul class="list-unstyled">
+              <li>Space: 30GB</li>
+              <li>Emails: 300 Emails</li>
+              <li>IPs: 2</li>
+              <li>Database: Mysql</li>
+              <li>FTP Account: 5</li>
+            </ul>
+            <a href="#" class="btn btn-success">Order Now</a>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="price_box">
+            <h2 class="text-info">Dedicated</h2>
+            <p class="center-block">200$</p>
+            <ul class="list-unstyled">
+              <li>Space: 30GB</li>
+              <li>Emails: 300 Emails</li>
+              <li>IPs: 2</li>
+              <li>Database: Mysql</li>
+              <li>FTP Account: 5</li>
+            </ul>
+            <a href="#" class="btn btn-info">Order Now</a>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="price_box">
+            <h2 class="text-danger">Cloud</h2>
+            <p class="center-block">200$</p>
+            <ul class="list-unstyled">
+              <li>Space: 30GB</li>
+              <li>Emails: 300 Emails</li>
+              <li>IPs: 2</li>
+              <li>Database: Mysql</li>
+              <li>FTP Account: 5</li>
+            </ul>
+            <a href="#" class="btn btn-danger">Order Now</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+<!-- End Price Table Section -->
+<!-- Start Our Team Section -->
+  <section class="our_team text-center">
+    <div class="team">
+    <div class="container">
+      <h1>Meet Our Awesome Team</h1>
+      <div class="row">
+
+        <div class="col-lg-3 col-sm-6 col-xs-12">
+          <div class="person">
+            <img src="images/ourteam/1.jpg?auto=compress" class="img-responsive img-circle" alt="1">
+            <h3>Steve</h3>
+            <p>This is The Founder of The Amazing Website</p>
+            <i class="fab fa-google-plus fa-2x"></i>
+            <i class="fab fa-facebook fa-2x"></i>
+            <i class="fab fa-twitter fa-2x"></i>
+            <i class="fab fa-youtube fa-2x"></i>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 col-xs-12">
+          <div class="person">
+            <img src="images/ourteam/2.jpeg?auto=compress" class="img-responsive img-circle" alt="2">
+            <h3>Maria</h3>
+            <p>This is The Founder of The Amazing Website</p>
+            <i class="fab fa-google-plus-square fa-2x"></i>
+            <i class="fab fa-facebook-square fa-2x"></i>
+            <i class="fab fa-twitter-square fa-2x"></i>
+            <i class="fab fa-youtube-square fa-2x"></i>
+          </div>
+        </div>
+        
+        <div class="col-lg-3 col-sm-6 col-xs-12">
+          <div class="person">
+            <img src="images/ourteam/3.jpg?auto=compress" class="img-responsive img-circle" alt="3">
+            <h3>Chris</h3>
+            <p>This is The Founder of The Amazing Website</p>
+            <i class="fab fa-google-plus fa-2x"></i>
+            <i class="fab fa-facebook fa-2x"></i>
+            <i class="fab fa-twitter fa-2x"></i>
+            <i class="fab fa-youtube fa-2x"></i>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 col-xs-12">
+          <div class="person">
+            <img src="images/ourteam/4.jpg?auto=compress" class="img-responsive img-circle" alt="4">
+            <h3>Sara</h3>
+            <p>This is The Founder of The Amazing Website</p>
+            <i class="fab fa-google-plus-square fa-2x"></i>
+            <i class="fab fa-facebook-square fa-2x"></i>
+            <i class="fab fa-twitter-square fa-2x"></i>
+            <i class="fab fa-youtube-square fa-2x"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+<!-- End Our Team Section -->
+
+<!-- STart Subscribe Section -->
+<section class="subscribe text-center">
+  <div class="container">
+  <h1>Keep in Touch</h1>
+  <p class="lead">Sign up For NewsLetter, Do't Worry about Spam We Hate it Too.</p>
+  <form class="form-inline">
+    <input type="text" class="form-control input-lg" placeholder="Write Your Email">
+    <button class="btn btn-danger btn-lg"><i class="fas fa-edit fa-lg"></i>Subscribe</button>
+  </form>
+  </div>
+</section>
+<!-- End Subscribe Section -->
+
+<!-- Start Statistics Section -->
+<section class="statistics text-center">
+  <div class="data">
+    <div class="container">
+      <h1>Our Statistics</h1>
+      <div class="row">
+
+        <div class="col-lg-3 col-sm-6">
+          <div class="stats">
+            <i class="fas fa-user fa-5x"></i>
+            <p>9,550</p>
+            <span>Statisfied Users</span>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6">
+          <div class="stats">
+            <i class="fas fa-comments fa-5x"></i>
+            <p>10233,550</p>
+            <span>Posted Comments</span>
+          </div>
+        </div>
+
+
+        <div class="col-lg-3 col-sm-6">
+          <div class="stats">
+            <i class="fas fa-suitcase fa-5x"></i>
+            <p>90</p>
+            <span>Done Projects</span>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6">
+          <div class="stats">
+            <i class="fas fa-life-ring fa-5x"></i>
+            <p>95,550</p>
+            <span>Archived Tickets</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  
+</section>
+<!-- End Statistics Section -->
+
+<!-- Start Our Skills Section -->
+<section class="our-skills">
+  <div class="container">
+    <h1 class="text-center">Our Skills</h1>
+    <div class="row">
+      <!-- Start progress Skills -->
+      <div class="col-md-5">
+        <div class="skills-progress">
+          <div class="progress">
+            <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+              HTML5 / CSS3
+            </div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar progress-bar-info active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+              PHP / MYSQL
+            </div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+              Javascript / JQuery
+            </div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+              WordPress
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End progress Skills -->
+
+      <!-- Start Team Info -->
+      <div class="col-md-6 col-md-offset-1">
+        <div class="skills-info">
+          <h3>About The Team</h3>
+          <p class="lead">
+            We are specialised Designing and Programming Team Passionate About Web Design and Creating Digital Ideas, We Will Transfer Your Ideas to Digital Dream
+          </p>
+          <button type="button" class="btn btn-primary">Talk With a Professional</button>
+        </div>
+      </div>
+      <!-- End Team Info -->
+    </div>
+  </div>
+</section>
+<!-- End Our Skills Section -->
+
+<!-- Start Contact Us Section -->
+<section class="contact-us text-center">
+    <div class="fields">
+      <div class="container">
+        <div class="row">
+          <i class="fas fa-headphones fa-5x"></i>
+          <h1>Tell Us What you Fell</h1>
+          <p class="lead">Free to Contact Us anytime</p>
+          <!-- Start Contact Form -->
+          <form role="form">
+            <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" class="form-control input-lg" placeholder="Username">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control input-lg" placeholder="Email">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control input-lg" placeholder="Cell Phone">
+            </div>
+          </div>
+          </form>
+          <!-- End Contact Form -->
+      </div>
+      </div>
+    </div>
+</section>
+<!-- End Contact Us Section -->
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/plugin.js"></script>
+</body>
+
+</html>

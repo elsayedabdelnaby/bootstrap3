@@ -1,0 +1,419 @@
+
+.os{
+    padding: 10px;
+    background: #000000;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.gray-background{
+    background-color: gray;
+}
+
+body{
+    padding-top: 70px;
+}
+
+/******************Start Overriding BootStrap*******************/
+.navbar{
+    min-height: 70px;
+}
+
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: #e41b17;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #BBB;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 16px;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #BBB;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.navbar-inverse .navbar-brand span{
+    color: #e41b17;
+}
+
+.dropdown-menu{
+    background-color: #222;
+    border-top: 3px solid #e41b17;
+    min-width: 200px;
+}
+
+.navbar-right .dropdown-menu{
+    left: 0;
+    right:auto;
+}
+
+.dropdown-menu > li > a {
+    color:#FFF;
+    padding: 6px 20px;
+    -webkit-transition: padding 0.5s ease;
+    -moz-transition: padding 0.5s ease;
+    -o-transition: padding 0.5s ease;
+    transition: padding 0.5s ease;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus{
+    background-color: #e41b17;
+    color: #FFF;
+    padding-left: 25px;
+}
+
+.dropdown-menu .divider {
+    background-color: #B71818;
+}
+
+.navbar-toggle{
+    margin-top: 18px;
+}
+
+/**************Carsoual********/
+.carousel-caption{
+    bottom: 150px;
+    background: rgba(3,3,3,0.3);
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.carousel-indicators li{
+    height:15px;
+    width: 15px;
+    border: 1px solid #eee;
+}
+
+.carousel-indicators .active{
+    width:17px;
+    height:17px;
+    background: #B71818;
+}
+
+/**************About Section***************/
+.about{
+    padding: 60px 0px;
+}
+
+.about .lead{
+    color: #888;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.about h1{
+    font-weight: bold;
+}
+
+.about h1 span{
+    color: #B71818;
+}
+
+.about h3 span{
+    color: #B71818;
+}
+/**************End About Section***************/
+
+/**************Start Features Section***************/
+.features{
+    background: #EEE;
+    padding: 50px 0px;
+}
+
+.features .feat{
+    margin-top: 30px;;
+}
+
+.features .feat .p{
+    line-height: 2em;
+}
+
+.features .feat h1{
+    margin-bottom: 50px;
+}
+
+.features .feat span.glyphicon{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #666;
+}
+/**************End Features Section***************/
+
+/**************Start carousel-testimonials***************/
+.testimonials{
+    padding-top: 50px;
+    padding-bottom: 50;
+}
+.testimonials h1{
+    font-weight: bold;
+    margin-bottom:20px;
+}
+
+.testimonials .lead{
+    line-height: 2rem;
+    margin-bottom: 10px;
+}
+
+.testimonials span{
+    font-size: 18px;;
+    font-weight: bold;
+    color: #e41b17;
+}
+
+.testimonials .carousel-inner{
+    min-height: 120px;
+}
+
+.testimonials .carousel-indicators{
+    position: static;
+    width: 100%;
+    margin-left: auto;
+}
+
+.testimonials .carousel-indicators li{
+    text-indent: 0;
+    width: 80px;
+    height: 80px;
+    opacity: 0.5;
+    border: 3px solid #FFF;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 5px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.testimonials .carousel-indicators li.active{
+    opacity: 1;
+    background: none;
+    border: 3px solid #e41b17;
+}
+
+.testimonials .carousel-indicators li img{
+    max-width: 100%;
+}
+/**************End carousel-testimonials***************/
+
+/**************Price Table***************/
+.price_table{
+    background: #EEE;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.price_table h1{
+    margin-bottom: 40px;
+}
+
+.price_table .price_box{
+    background: #FFF;
+    padding: 10px;
+    border: 1px solid #DDD;
+    margin-bottom: 15px;
+}
+
+.price_table .price_box h2{
+    margin: 5px 0 15px;
+}
+
+.price_table .price_box:hover p{
+    -webkit-transform: scale(1.1,1.1) rotate(360deg);
+    -moz-transform: scale(1.1,1.1) rotate(360deg);
+    -o-transform: scale(1.1,1.1) rotate(360deg);
+    transform: scale(1.1,1.1) rotate(360deg);
+    border: 2px solid #DFDFDF;
+}
+
+.price_table .price_box p{
+    font-size: 35px;
+    font-weight: bold;
+    color: #666;
+    width: 100px;
+    height: 100px;
+    background: #f3f3f3;
+    border-radius: 50%;
+    border: 2px solid #FFF;
+    line-height: 100px;
+    -webkit-transition-duration: 0.7s;
+    -moz-transition-duration: 0.7s;
+    -o-transition-duration: 0.7s;
+    transition-duration: 0.7s;
+
+}
+
+.price_table .price_box ul{
+    line-height: 250%;
+    font-size: 18px;
+}
+
+.price_table .price_box a{
+    margin-bottom: 5px;
+}
+/**************End Price Table***************/
+
+
+/**************Start Our Team***************/
+.our_team{
+    background: url('../images/ourteam/background.jpg') no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    min-height: 600px;
+}
+
+.our_team .team{
+    background: rgba(2, 2, 2, 0.8);
+    color: #FFF;
+    min-height: 600px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.our_team h1{
+    margin-bottom: 60px;
+}
+.our_team .person{
+    margin-bottom: 40px;
+}
+.our_team .person img{
+    width: 100%;
+}
+/**************End Our Team***************/
+
+
+/**************Start Subscribe***************/
+.subscribe{
+    padding-top: 40px;
+    padding-bottom: 70px;
+    background: #EEE;
+}
+
+.subscribe h1{
+    color: #888;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.subscribe p{
+    margin-bottom: 30xp;
+}
+
+.subscribe .form-control{
+    border-radius: 0;
+    margin-right: -5px;
+    width: 300px;
+}
+
+.subscribe button{
+    border-radius: 0px;
+}
+.subscribe .btn-danger{
+    background-color: #e41b17;
+    border-color: #e41b17;
+}
+
+/**************End Subscribe***************/
+
+/**************Start Statisctics***************/
+.statistics{
+    background: url('../images/statistics.jpg') no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    min-height:300px;
+}
+
+.statistics .data{
+    background: rgba(2, 2, 2, 0.7);
+    color: #B6B5B5;
+    min-height:300px;
+    padding-top:40px;
+    padding-bottom:70px;
+}
+
+.statistics h1{
+    margin-bottom: 60px;
+}
+
+.statistics .stats{
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    margin-bottom: 30px;
+
+}
+
+.statistics .stats:hover{
+    color: white;
+}
+
+.statistics p{
+    font-size:60px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+.statistics span{
+    font-size: 18px;
+
+}
+
+/**************End Statisctics***************/
+
+
+/**************Start Skills***************/
+.our-skills{
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+
+.our-skills h1{
+    margin-bottom: 60px;
+}
+.our-skills h3{
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.our-skills .progress{
+    height: 36px;
+
+}
+.our-skills .progress-bar{
+    line-height: 36px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    text-indent: 10px;
+}
+/**************End Skills***************/
+
+/**************Start Contact Us***************/
+.contact-us{
+    background: url('../images/statistics.jpg') no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    min-height:300px;
+}
+
+.contact-us .fields{
+    background: rgba(9, 9, 9, 0.8);
+    min-height: 300px;
+    color: #DDD;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+/**************End Contact Us***************/
