@@ -416,4 +416,19 @@ body{
     padding-top: 40px;
     padding-bottom: 40px;
 }
+
+.contact-us p{
+    margin-bottom: 40px;
+
+}
+
+.contact-us textarea{
+    height: 108px;
+}
+
+.contact-us input[type="text"], .contact-us textarea{
+    background: rgba(82, 78, 78, 0.7);
+    color: #FFF;
+    border: none;
+}
 /**************End Contact Us***************/
