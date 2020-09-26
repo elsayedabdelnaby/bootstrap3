@@ -106,9 +106,9 @@ h1, h2, h3, h4, h5, lead{
 .tool-box .color-option ul li{
     width: 20px;
     height: 20px;
-    background: #e41b17;
     display: inline-block;
     margin-right: 3px;
+    cursor: pointer;
 }
 
 .tool-box .gear-check{
