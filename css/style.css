@@ -21,12 +21,6 @@ h1, h2, h3, h4, h5, lead{
     min-height: 70px;
 }
 
-.navbar-inverse .navbar-nav > .active > a, 
-.navbar-inverse .navbar-nav > .active > a:hover, 
-.navbar-inverse .navbar-nav > .active > a:focus {
-    background-color: #e41b17;
-}
-
 .navbar-inverse .navbar-nav > li > a {
     color: #BBB;
     padding-top: 25px;
@@ -40,13 +34,9 @@ h1, h2, h3, h4, h5, lead{
     line-height: 40px;
 }
 
-.navbar-inverse .navbar-brand span{
-    color: #e41b17;
-}
 
 .dropdown-menu{
     background-color: #222;
-    border-top: 3px solid #e41b17;
     min-width: 200px;
 }
 
@@ -66,7 +56,6 @@ h1, h2, h3, h4, h5, lead{
 
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus{
-    background-color: #e41b17;
     color: #FFF;
     padding-left: 25px;
 }
@@ -96,8 +85,38 @@ h1, h2, h3, h4, h5, lead{
 .carousel-indicators .active{
     width:17px;
     height:17px;
-    background: #B71818;
 }
+
+/**************Tool Box Section***************/
+.tool-box{
+    position: fixed;
+    top: 100px;
+    left: 0;
+    z-index: 9999;
+}
+.tool-box .color-option{
+    float: left;
+    background: #333;
+    color: #FFF;
+    padding: 10px;
+    width: 200px;
+    display: none;
+}
+
+.tool-box .color-option ul li{
+    width: 20px;
+    height: 20px;
+    background: #e41b17;
+    display: inline-block;
+    margin-right: 3px;
+}
+
+.tool-box .gear-check{
+    padding: 5px;
+    color: #FFF;
+    cursor: pointer;
+}
+/**************Tool Box Section***************/
 
 /**************About Section***************/
 .about{
@@ -112,10 +131,6 @@ h1, h2, h3, h4, h5, lead{
 
 .about h1{
     font-weight: bold;
-}
-
-.about h1 span{
-    color: #B71818;
 }
 
 .about h3 span{
@@ -164,9 +179,8 @@ h1, h2, h3, h4, h5, lead{
 }
 
 .testimonials span{
-    font-size: 18px;;
+    font-size: 18px;
     font-weight: bold;
-    color: #e41b17;
 }
 
 .testimonials .carousel-inner{
@@ -197,7 +211,6 @@ h1, h2, h3, h4, h5, lead{
 .testimonials .carousel-indicators li.active{
     opacity: 1;
     background: none;
-    border: 3px solid #e41b17;
 }
 
 .testimonials .carousel-indicators li img{
@@ -469,7 +482,6 @@ h1, h2, h3, h4, h5, lead{
 .footer a:hover{color:#FFF}
 
 .footer h3{
-    color: #0895D1;
     letter-spacing: 1px;
     margin: 30px 0 20px;
 }
@@ -516,7 +528,5 @@ h1, h2, h3, h4, h5, lead{
     margin-top: 30px;
     font-size: 18px;
 }
-.footer .copyright span{
-    color: #0895D1;
-}
+
 /**************End Footer***************/
