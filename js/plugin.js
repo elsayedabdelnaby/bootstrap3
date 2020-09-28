@@ -18,4 +18,22 @@ $(document).ready(function(){
     colorLi.click(function(){
         $("link[href*='theme']").attr("href", $(this).attr('data-value'));
     })
+
+    var scrollButton = $("#scroll-top");
+    $(window).scroll(function(){
+        $(this).scrollTop() >= 700 ? scrollButton.show() : scrollButton.hide();
+    });
+    scrollButton.click(function(){
+        //$("html.body").animate({scrollTop:0}, 600);
+        $("html,body").animate({ scrollTop: 0 }, 600);
+    });
+
 });
+
+//Loading Script
+window.onload = function(){
+    $(".loading-overlay .spinner").fadeOut(1000, function(){
+        $(this).parent().fadeOut(2000, function(){
+        });
+    });
+}
